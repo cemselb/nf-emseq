@@ -1,8 +1,16 @@
 #!/usr/bin/env nextflow
+
 nextflow.enable.dsl=2
 
-include { METHYLSEQ } from 'nf-core/methylseq/workflows/methylseq'
+log.info """
+         ===================================
+         nf-emseq: Orchestration Wrapper
+         ===================================
+         This repository manages the configuration 
+         and execution of nf-core/methylseq.
+         """.stripIndent()
 
 workflow {
-    METHYLSEQ()
+    // This workflow is intentionally empty.
+    // The analysis is performed by the nf-core pipeline.
 }

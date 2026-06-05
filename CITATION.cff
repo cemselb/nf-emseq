@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this pipeline in your research, please cite it as follows:"
+title: "nf-emseq: Enzymatic Methyl-seq Analysis Pipeline"
+authors:
+  - family-names: "Bafligil Suomi"
+    given-names: "Cemsel"
+version: 1.0.0
+date-released: 2026-06-05
+url: "https://github.com/cemselb/nf-emseq"

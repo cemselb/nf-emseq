@@ -8,5 +8,6 @@ workflow {
              ===================================
              Running methylation analysis pipeline...
              """.stripIndent()
+    METHYLSEQ()
 
 }
